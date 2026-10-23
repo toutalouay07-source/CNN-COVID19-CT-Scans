@@ -8,7 +8,7 @@ L'entraînement a été réalisé sur le **GPU gratuit de Google Colab**.
 
 > Projet d'apprentissage. Ce n'est pas un dispositif médical et il ne doit jamais servir à prendre des décisions de santé.
 
-## Sommaire
+## Sommaire:
 
 1. [Objectif](#1-objectif)
 2. [Les données](#2-les-données)
