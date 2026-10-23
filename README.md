@@ -166,4 +166,4 @@ model = tf.keras.models.load_model("cnn_scratch.keras")
 
 
   ## 11.Me Contacter:
-  [Visitez Google](linktr.ee/sth_lwy)
+  [mes liens](linktr.ee/sth_lwy)
