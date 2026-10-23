@@ -165,5 +165,3 @@ model = tf.keras.models.load_model("cnn_scratch.keras")
 - **Dataset** : *CT Scans for COVID-19 Classification* par Abu Zahid Bin Aziz, licence CC BY 4.0. Images issues de la ressource [iCTCF](http://ictcf.biocuckoo.cn/) : Ning, W. et al., « iCTCF: an integrative resource of chest computed tomography images and clinical features of patients with COVID-19 pneumonia » (2020).
 
 
-  ## 11.Me Contacter:
-  [mes liens](linktr.ee/sth_lwy)
