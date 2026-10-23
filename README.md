@@ -4,7 +4,7 @@ Un réseau de neurones convolutif (CNN) construit **from scratch** avec TensorFl
 
 L'entraînement a été réalisé sur le **GPU gratuit de Google Colab**.
 
-![Exemples de coupes CT par classe](assets/ct-examples.png)
+![Exemples de coupes CT par classe](ct-examples.png)
 
 > Projet d'apprentissage. Ce n'est pas un dispositif médical et il ne doit jamais servir à prendre des décisions de santé.
 
@@ -33,7 +33,7 @@ Chaque image est une coupe axiale d'un scanner thoracique. Le modèle doit préd
 
 La troisième classe est importante en pratique : un scanner contient beaucoup de coupes au-dessus et en dessous des poumons, et un modèle utile doit savoir les reconnaître au lieu de les forcer en « normal » ou « positif ».
 
-![Répartition des classes](assets/class-distribution.png)
+![Répartition des classes](class-distribution.png)
 
 ## 2. Les données
 
@@ -92,7 +92,7 @@ Loss finale : 0,131 (train) et 0,155 (validation).
 
 Les scores de validation et de test sont très proches, ce qui indique que le modèle généralise correctement. L'écart d'environ 2 points avec le train est un léger surapprentissage, attendu à ce stade. L'accuracy d'entraînement est mesurée avec l'augmentation et le dropout actifs.
 
-![Courbes d'apprentissage](assets/training-curves.png)
+![Courbes d'apprentissage](training-curves.png)
 
 ### Résultats par classe (jeu de test)
 
@@ -106,7 +106,7 @@ Les scores de validation et de test sont très proches, ce qui indique que le mo
 
 La matrice de confusion montre quelles classes sont confondues par le modèle (lignes : vraie classe, colonnes : classe prédite, valeurs normalisées par ligne).
 
-![Matrice de confusion](assets/confusion-matrix.png)
+![Matrice de confusion](confusion-matrix.png)
 
 ## 6. Lancer le projet
 
@@ -163,4 +163,7 @@ model = tf.keras.models.load_model("cnn_scratch.keras")
 ## 10. Remerciements
 
 - **Dataset** : *CT Scans for COVID-19 Classification* par Abu Zahid Bin Aziz, licence CC BY 4.0. Images issues de la ressource [iCTCF](http://ictcf.biocuckoo.cn/) : Ning, W. et al., « iCTCF: an integrative resource of chest computed tomography images and clinical features of patients with COVID-19 pneumonia » (2020).
-- **Inspiration** : le projet [chrispathway/covid-ct-classifier](https://github.com/chrispathway/covid-ct-classifier), réalisé avec PyTorch sur le même dataset, qui m'a servi de référence pour structurer ce travail en TensorFlow.
+
+
+  ## 11.Me Contacter:
+  [Visitez Google](linktr.ee/sth_lwy)
